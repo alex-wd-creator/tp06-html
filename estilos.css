@@ -1,0 +1,59 @@
+div.header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+div.header h1 {
+    color: white;
+    margin: 0;
+}
+div.sobres {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+div.sobre {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+div.sobre img {
+    width: 100px;
+    height: 100px;
+}
+div.album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div.figurita {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+div.figurita img {
+    width: 100px;
+    height: 100px;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton:hover {
+    background-color: #0056b3;
+    font-family: comic sans ms;
+}
+
+div.mis-figuritas {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
